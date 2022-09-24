@@ -1,0 +1,424 @@
+*{
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+}
+.body{
+
+}
+.container-fluid{ 
+    width: 100%;
+   height: 60px;
+   display: block;
+   
+} 
+.container{
+    width: 100%;
+    
+
+   
+}
+.bg-light{ 
+    background-color: #fff;
+    position: fixed;
+}
+    
+    
+
+.logo a{ 
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    margin: auto;
+     
+    
+
+}
+.logo a:hover{
+    background: rgb(226, 216, 216);
+    
+}
+.menu{
+    width: 80%;
+    float: right;
+    text-align: right; 
+    padding: 20px;
+
+}
+
+.menu li{  
+    
+    display: inline-block; 
+    
+    
+} 
+.menu li a{
+    text-decoration: none; 
+    color: black;
+    padding: 20px;
+
+}
+.menu a:hover{
+    background: rgb(226, 216, 216);
+}
+.banner{
+    background-image: url("mac.jpg");
+    width: 100%;
+    height: 700px; 
+   
+
+}
+h1{
+    color: white;
+    font-size: 80px;
+    padding: 250px 30px 0 30px;
+    font-weight: lighter;
+    
+}
+
+
+.learn{
+    background: rgb(232, 215, 215);
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.banner a:hover{
+    background: #fff;
+}
+.icons{
+
+    padding: 100px 30px 0 30px;
+}
+
+.w3-hover-opacity{
+    font-size: 20px;
+    color: #757575;
+    
+    
+}
+.banner i:hover{
+    background:#d8d1d1;
+}
+
+
+
+
+.title{
+   text-align: center; 
+   padding: 150px 0 30px 0;
+   font-weight: 100;
+   
+} 
+
+
+.icon{
+    width: 24%;
+    text-align: center; 
+    padding: 50px 10px 20px 10px;
+    display: inline-block;
+    
+    
+}
+
+
+
+.w4{  
+    width: 100%;
+    height: 600px;
+    margin-top: 90px;
+  padding: 120px 20px;
+    
+    background: #f1f1f1;
+}
+.title2{
+    width: 32%;
+    float: left; 
+    padding: 15px ;
+    
+}
+.title2 h3{ 
+    padding: 15px;
+    font-size: 20px;
+    
+}
+a.work{ 
+    text-decoration: none;
+    font-size: 15px;
+    background: black;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+a.work:hover{
+    background: rgb(177, 174, 174);
+}
+.img{
+    width: 40%;
+    float: right;
+    font-size: 50px;
+
+}
+.title3{
+    text-align: center;
+    padding: 150px 0 35px 0;
+    font-weight: 100;
+    font-size: 20px;
+}
+.team{
+    width: 22%;
+    padding: 25px;
+     box-shadow:  0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    display: inline-block;
+    margin: 12px; 
+    
+}
+.team a{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+.con{
+    text-align: center;
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+p.con:hover{
+    background-color: #ccc;
+}
+
+.w6{
+    width: 100%; 
+    height: 200px;
+    background-color: #656262; 
+    margin: 150px 0;
+} 
+.quater1{ 
+    width: 24%;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    display: inline-block;
+}
+.title4{
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+.w7{
+    width: 100%;
+    text-align: center;
+    
+}
+.picture{
+   
+    display: inline-block;
+}
+
+
+.w8{
+    width: 100%;
+    height: 400px;
+    background-color: #f1f1f1;
+    color: black; 
+    
+
+}
+
+    
+.title5{
+    width: 45%;
+    float: left;
+    padding: 60px 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.percentage{
+    width: 50%;
+    float: right;
+    font-size: 20px;
+    padding: 60px;
+}
+.photo{
+    width: 90%;
+    height: 28px;
+    color: white;
+    background-color: #616161;
+    
+}
+.w9{
+    width: 100%;
+    background-color: #616161;
+    color: white;
+    height: 950px;
+    text-align: center;
+    
+}
+.plan{
+    width: 30%;
+    text-align: center;
+    margin: 10px; 
+    display: inline-block;
+    padding: 20px 0;
+
+
+}
+.plan2{
+    width: 30%;
+    text-align: center;
+     margin: 10px;
+    display: inline-block;
+    padding:40px 0 !important
+    
+
+
+}
+
+.plan ul{
+    border: 1px solid #abaaa9;
+    
+}
+.plan2 ul{
+    border: 1px solid #abaaa9;
+    
+}
+.plan ul:hover{
+    box-shadow: 0 4px 8px 0 #f1f1f1;
+}
+.plan2 ul:hover{
+    box-shadow: 0 4px 8px 0 #f1f1f1;
+}
+.plan li{
+    padding: 20px;
+    border-bottom: 1px solid #abaaa9;
+    list-style: none;
+}
+.plan2 li{
+    padding: 20px;
+    border-bottom: 1px solid #abaaa9;
+    list-style: none;
+}
+
+li.heading{
+    background-color: black;
+    padding: 30px; 
+    font-size: 30px;
+}
+li.heading2{
+    background-color: #f44336;
+    padding: 40px; 
+    font-size: 30px;
+}
+.month{
+    font-size: 40px;
+}
+.month small{
+    font-size: 18px;
+}
+li.btn{
+    
+    background-color: #e2dfdf; 
+    padding: 30px !important
+}
+li.btn2{
+    
+    background-color: #e2dfdf; 
+    padding: 40px !important
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+.btn a:hover{
+    background-color: #7b7878;
+}
+.btn2 a:hover{
+    background-color: #7b7878;
+}
+.w10{
+    width: 100%;
+    height: 900px;
+    background-color: #f1f1f1;
+    
+}
+.title6 {
+text-align: center;
+font-size: 25px;
+padding: 80px;
+font-weight: 100;
+
+}
+.contact{
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 25px;
+    
+}
+
+input{
+    width: 95%;
+    padding: 15px;
+    margin: 0 10px 15px 15px;
+
+} 
+input[type=submit]{
+    background-color: black;
+    color: white;
+    width: 15%;
+}
+input[type=submit]:hover{
+    border: #f1f1f1;
+    background-color: #999494;
+}
+.w11{
+    width: 100%;
+    height: auto; 
+    text-align: center; 
+    background-color: #f1f1f1;
+
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+.top a{
+    color:black;
+    padding: 15px;
+    background: white;
+    text-decoration: none;
+}
+.top a:hover{
+    background-color: #999494;
+}
+.ic{
+    padding: 40px;
+}
+.ic i{
+    
+    color: white !important;
+    font-size: 30px;
+}
+.ic i:hover{
+    background-color: #616161;
+}
+.by a{
+    color: white;
+}
+.w3-hover-text-green:hover{
+   background-color: green;
+   
+}
